@@ -1,0 +1,11 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+catboost
+xgboost
+Flask
+
+#  to enable that whenver the setup file runs along with that requirement.txt also executes and vice versa
+-e .
