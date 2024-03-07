@@ -1,0 +1,2 @@
+this folder will include all the spaces related to the model, dataset you are working on 
+-> EDA will be done onn
