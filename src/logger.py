@@ -1,8 +1,5 @@
 import logging
 import os
-import sys
-from exception import *
-# os.system("python exception.py")
 from datetime import datetime
 
 LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
@@ -16,13 +13,5 @@ logging.basicConfig(
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
 
-)
 
-    
-if __name__=="__main__":
-    try: 
-        a=1/0
-    except Exception as e:
-        logging.info("It's a divide by zero error")
-        raise CustomException(e,sys)
-    
+)
