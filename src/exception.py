@@ -18,7 +18,7 @@ class CustomException(Exception):
     
     def __str__(self):
         return self.error_message
-    
+'''
 #  custom exception handling try catch block etc
 if __name__=="__main__":
     try: 
@@ -27,4 +27,4 @@ if __name__=="__main__":
         logging.info("It's a divide by zero error")
         raise CustomException(e,sys)
 
-        
+'''          
