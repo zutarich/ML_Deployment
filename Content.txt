@@ -8,4 +8,4 @@ target guided ordinal encoding
 --> DATACLASSES IN  PYTHON HOW THEY ARE DIFFERENT THEN THE NORMAL classes
 https://www.dataquest.io/blog/how-to-use-python-data-classes/
 
-
+--> FLASK Server working fine!
