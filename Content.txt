@@ -1,2 +1,11 @@
 more or less entire thing will be in src
 target guided ordinal encoding
+
+
+-->GENERIC ML STRUCTUTRE FOR ANY PROJECT WITH A SMALL STUDENT DATASET TAKEN AS EXAMPLE
+
+
+--> DATACLASSES IN  PYTHON HOW THEY ARE DIFFERENT THEN THE NORMAL classes
+https://www.dataquest.io/blog/how-to-use-python-data-classes/
+
+

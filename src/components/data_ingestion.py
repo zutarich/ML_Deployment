@@ -13,6 +13,7 @@ from src.components.data_transformation import DataTransformationConfig
 from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer
 
+
 # i could define all the entity in a seperate config entity as well but yeah here artificats hold the divided dataset
 @dataclass
 class DataIngestionConfig:
@@ -26,8 +27,12 @@ class DataIngestionConfig:
     raw_data_path: str=os.path.join('artifacts',"data.csv")
 
 class DataIngestion:
-    def __init__(self):
-        self.ingestion_config=DataIngestionConfig()
+
+    # ->both doen the same work as we using dataclass thus we have a adv over the normal methodology
+
+    # def __init__(self):
+    #     self.ingestion_config=DataIngestionConfig()
+    ingestion_config=DataIngestionConfig()
 
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method or component")
